@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black-Scholes Options Trading Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .signal-buy {
+            background-color: #10B981;
+            color: white;
+        }
+        .signal-sell {
+            background-color: #EF4444;
+            color: white;
+        }
+        .signal-hold {
+            background-color: #6B7280;
+            color: white;
+        }
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-300">Black-Scholes Options Trading Tool</h1>
+            <p class="text-gray-400 mt-2">Advanced options analysis and automated trading signals</p>
+        </header>
+
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Column: Controls & Inputs -->
+            <div class="lg:col-span-1 space-y-6 glassmorphism rounded-2xl p-6">
+                <div>
+                    <label for="stockSymbol" class="block text-sm font-medium text-gray-300">Stock Symbol</label>
+                    <select id="stockSymbol" class="mt-1 block w-full bg-gray-800 border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500 text-white">
+                        <option value="AAPL">Apple Inc. (AAPL)</option>
+                        <option value="GOOGL">Alphabet Inc. (GOOGL)</option>
+                        <option value="MSFT">Microsoft Corp. (MSFT)</option>
+                        <option value="AMZN">Amazon.com, Inc. (AMZN)</option>
+                        <option value="TSLA">Tesla, Inc. (TSLA)</option>
+                    </select>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="strikePrice" class="block text-sm font-medium text-gray-300">Strike Price ($)</label>
+                        <input type="number" id="strikePrice" value="150" class="mt-1 block w-full bg-gray-800 border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="expiryDate" class="block text-sm font-medium text-gray-300">Expiry (Days)</label>
+                        <input type="number" id="expiryDate" value="30" class="mt-1 block w-full bg-gray-800 border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="riskFreeRate" class="block text-sm font-medium text-gray-300">Risk-Free Rate (%)</label>
+                        <input type="number" id="riskFreeRate" value="1.5" step="0.1" class="mt-1 block w-full bg-gray-800 border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label for="volatility" class="block text-sm font-medium text-gray-300">Volatility (%)</label>
+                        <input type="number" id="volatility" value="25" class="mt-1 block w-full bg-gray-800 border-gray-600 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                </div>
+                 <button id="calculateBtn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Calculate & Analyze
+                </button>
+            </div>
+
+            <!-- Middle Column: Results & Signals -->
+            <div class="lg:col-span-1 space-y-6">
+                <div class="glassmorphism rounded-2xl p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Live Market Data (Simulated)</h2>
+                    <div id="marketPriceContainer" class="text-center">
+                         <p class="text-lg text-gray-400">Current Stock Price:</p>
+                         <p id="currentStockPrice" class="text-4xl font-bold text-teal-300">-</p>
+                         <p class="text-lg text-gray-400 mt-4">Market Option Price:</p>
+                         <p id="marketOptionPrice" class="text-4xl font-bold text-blue-400">-</p>
+                    </div>
+                </div>
+                <div class="glassmorphism rounded-2xl p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Trading Signal</h2>
+                    <div id="tradingSignal" class="text-center p-4 rounded-lg text-2xl font-extrabold">
+                        -
+                    </div>
+                    <div id="confidenceLevel" class="text-center mt-2 text-gray-400">
+                        -
+                    </div>
+                </div>
+                 <div class="glassmorphism rounded-2xl p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-center">Black-Scholes Theoretical Price</h2>
+                    <div class="text-center">
+                        <p class="text-lg text-gray-400">Call Price:</p>
+                        <p id="callPrice" class="text-3xl font-bold">-</p>
+                        <p class="text-lg text-gray-400 mt-4">Put Price:</p>
+                        <p id="putPrice" class="text-3xl font-bold">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Greeks -->
+            <div class="lg:col-span-1 glassmorphism rounded-2xl p-6">
+                <h2 class="text-2xl font-bold mb-4 text-center">Option Greeks</h2>
+                <div id="greeks" class="grid grid-cols-2 gap-4 text-center">
+                    <div>
+                        <p class="font-bold text-lg text-blue-300">Delta</p>
+                        <p id="delta" class="text-xl">-</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg text-blue-300">Gamma</p>
+                        <p id="gamma" class="text-xl">-</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg text-blue-300">Theta</p>
+                        <p id="theta" class="text-xl">-</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-lg text-blue-300">Vega</p>
+                        <p id="vega" class="text-xl">-</p>
+                    </div>
+                    <div class="col-span-2">
+                        <p class="font-bold text-lg text-blue-300">Rho</p>
+                        <p id="rho" class="text-xl">-</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Charts Section -->
+        <footer class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="glassmorphism rounded-2xl p-6">
+                <h2 class="text-2xl font-bold mb-4 text-center">Price Sensitivity Analysis</h2>
+                <canvas id="sensitivityChart"></canvas>
+            </div>
+            <div class="glassmorphism rounded-2xl p-6">
+                <h2 class="text-2xl font-bold mb-4 text-center">Simulated Historical Stock Price</h2>
+                <canvas id="historicalChart"></canvas>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // --- UTILITY FUNCTIONS ---
+        // Standard normal cumulative distribution function
+        function stdNormalCDF(x) {
+            return (1.0 + erf(x / Math.sqrt(2.0))) / 2.0;
+        }
+
+        // Error function for the CDF
+        function erf(x) {
+            const a1 = 0.254829592;
+            const a2 = -0.284496736;
+            const a3 = 1.421413741;
+            const a4 = -1.453152027;
+            const a5 = 1.061405429;
+            const p = 0.3275911;
+            const sign = (x >= 0) ? 1 : -1;
+            x = Math.abs(x);
+            const t = 1.0 / (1.0 + p * x);
+            const y = 1.0 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-x * x);
+            return sign * y;
+        }
+
+        // Standard normal probability density function
+        function stdNormalPDF(x) {
+            return (1.0 / Math.sqrt(2 * Math.PI)) * Math.exp(-0.5 * x * x);
+        }
+
+        // --- BLACK-SCHOLES MODEL ---
+        function blackScholes(S, K, T, r, v) {
+            const d1 = (Math.log(S / K) + (r + (v * v) / 2) * T) / (v * Math.sqrt(T));
+            const d2 = d1 - v * Math.sqrt(T);
+
+            const callPrice = (S * stdNormalCDF(d1) - K * Math.exp(-r * T) * stdNormalCDF(d2));
+            const putPrice = (K * Math.exp(-r * T) * stdNormalCDF(-d2) - S * stdNormalCDF(-d1));
+
+            // Greeks
+            const deltaCall = stdNormalCDF(d1);
+            const deltaPut = deltaCall - 1;
+            const gamma = stdNormalPDF(d1) / (S * v * Math.sqrt(T));
+            const thetaCall = -((S * stdNormalPDF(d1) * v) / (2 * Math.sqrt(T))) - r * K * Math.exp(-r * T) * stdNormalCDF(d2);
+            const thetaPut = -((S * stdNormalPDF(d1) * v) / (2 * Math.sqrt(T))) + r * K * Math.exp(-r * T) * stdNormalCDF(-d2);
+            const vega = S * stdNormalPDF(d1) * Math.sqrt(T);
+            const rhoCall = K * T * Math.exp(-r * T) * stdNormalCDF(d2);
+            const rhoPut = -K * T * Math.exp(-r * T) * stdNormalCDF(-d2);
+
+            return {
+                callPrice,
+                putPrice,
+                greeks: {
+                    deltaCall,
+                    deltaPut,
+                    gamma,
+                    thetaCall: thetaCall / 365, // Per day
+                    thetaPut: thetaPut / 365, // Per day
+                    vega: vega / 100, // Per 1% change in vol
+                    rhoCall: rhoCall / 100, // Per 1% change in rate
+                    rhoPut: rhoPut / 100 // Per 1% change in rate
+                }
+            };
+        }
+
+        // --- SIMULATION & UI LOGIC ---
+        const stockBasePrices = {
+            'AAPL': 170,
+            'GOOGL': 140,
+            'MSFT': 350,
+            'AMZN': 135,
+            'TSLA': 250
+        };
+
+        let sensitivityChart, historicalChart;
+
+        function simulateMarketData(symbol) {
+            const basePrice = stockBasePrices[symbol];
+            const stockPrice = basePrice * (1 + (Math.random() - 0.5) * 0.1); // +/- 5% fluctuation
+            // Simulate market option price with some noise around the theoretical price
+            // This is a simplification. Real market prices are driven by supply/demand.
+            const K = parseFloat(document.getElementById('strikePrice').value);
+            const T = parseFloat(document.getElementById('expiryDate').value) / 365;
+            const r = parseFloat(document.getElementById('riskFreeRate').value) / 100;
+            const v = parseFloat(document.getElementById('volatility').value) / 100;
+
+            const theoretical = blackScholes(stockPrice, K, T, r, v);
+            const noise = (Math.random() - 0.5) * 2; // -1 to 1
+            const marketCallPrice = theoretical.callPrice + noise;
+
+            return {
+                stockPrice: stockPrice,
+                marketOptionPrice: Math.max(0.01, marketCallPrice) // Ensure price is not negative
+            };
+        }
+        
+        function generateHistoricalData(symbol, days) {
+            const basePrice = stockBasePrices[symbol];
+            const data = [];
+            const labels = [];
+            let price = basePrice;
+            for (let i = 0; i < days; i++) {
+                price *= (1 + (Math.random() - 0.5) * 0.05); // Daily fluctuation
+                data.unshift(price);
+                const date = new Date();
+                date.setDate(date.getDate() - i);
+                labels.unshift(date.toLocaleDateString());
+            }
+            return { labels, data };
+        }
+
+
+        function updateUI() {
+            // Get inputs
+            const symbol = document.getElementById('stockSymbol').value;
+            const K = parseFloat(document.getElementById('strikePrice').value);
+            const T_days = parseFloat(document.getElementById('expiryDate').value);
+            const r_perc = parseFloat(document.getElementById('riskFreeRate').value);
+            const v_perc = parseFloat(document.getElementById('volatility').value);
+
+            if (isNaN(K) || isNaN(T_days) || isNaN(r_perc) || isNaN(v_perc) || T_days <= 0) {
+                alert("Please enter valid positive numbers for all inputs.");
+                return;
+            }
+            
+            const T = T_days / 365;
+            const r = r_perc / 100;
+            const v = v_perc / 100;
+
+            // Simulate market data
+            const marketData = simulateMarketData(symbol);
+            const S = marketData.stockPrice;
+            const marketOptionPrice = marketData.marketOptionPrice;
+
+            document.getElementById('currentStockPrice').textContent = `$${S.toFixed(2)}`;
+            document.getElementById('marketOptionPrice').textContent = `$${marketOptionPrice.toFixed(2)}`;
+
+            // Calculate Black-Scholes
+            const result = blackScholes(S, K, T, r, v);
+
+            // Display prices
+            document.getElementById('callPrice').textContent = `$${result.callPrice.toFixed(2)}`;
+            document.getElementById('putPrice').textContent = `$${result.putPrice.toFixed(2)}`;
+
+            // Display Greeks (assuming we are analyzing a call option)
+            document.getElementById('delta').textContent = result.greeks.deltaCall.toFixed(4);
+            document.getElementById('gamma').textContent = result.greeks.gamma.toFixed(4);
+            document.getElementById('theta').textContent = result.greeks.thetaCall.toFixed(4);
+            document.getElementById('vega').textContent = result.greeks.vega.toFixed(4);
+            document.getElementById('rho').textContent = result.greeks.rhoCall.toFixed(4);
+
+            // Generate Trading Signal (for the call option)
+            const theoreticalPrice = result.callPrice;
+            const difference = theoreticalPrice - marketOptionPrice;
+            const percentageDiff = (difference / marketOptionPrice) * 100;
+
+            const signalDiv = document.getElementById('tradingSignal');
+            const confidenceDiv = document.getElementById('confidenceLevel');
+            signalDiv.className = 'text-center p-4 rounded-lg text-2xl font-extrabold'; // Reset classes
+
+            if (percentageDiff > 5) { // Undervalued market price
+                signalDiv.classList.add('signal-buy');
+                signalDiv.textContent = 'BUY';
+                confidenceDiv.textContent = `Theoretically undervalued by ${percentageDiff.toFixed(2)}%`;
+            } else if (percentageDiff < -5) { // Overvalued market price
+                signalDiv.classList.add('signal-sell');
+                signalDiv.textContent = 'SELL';
+                confidenceDiv.textContent = `Theoretically overvalued by ${Math.abs(percentageDiff).toFixed(2)}%`;
+            } else {
+                signalDiv.classList.add('signal-hold');
+                signalDiv.textContent = 'HOLD';
+                confidenceDiv.textContent = `Price is within a ${Math.abs(percentageDiff).toFixed(2)}% fair value range.`;
+            }
+            
+            // Update Charts
+            updateSensitivityChart(S, K, T, r, v);
+            updateHistoricalChart(symbol);
+        }
+
+        function updateSensitivityChart(S, K, T, r, v) {
+            const labels = [];
+            const callData = [];
+            const putData = [];
+            const priceRange = 0.2; // +/- 20% from current price
+
+            for (let i = -10; i <= 10; i++) {
+                const currentS = S * (1 + (i * priceRange) / 10);
+                labels.push(currentS.toFixed(2));
+                const prices = blackScholes(currentS, K, T, r, v);
+                callData.push(prices.callPrice);
+                putData.push(prices.putPrice);
+            }
+
+            const ctx = document.getElementById('sensitivityChart').getContext('2d');
+            if (sensitivityChart) {
+                sensitivityChart.destroy();
+            }
+            sensitivityChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Call Price',
+                        data: callData,
+                        borderColor: '#22C55E', // green-500
+                        backgroundColor: 'rgba(34, 197, 94, 0.1)',
+                        tension: 0.1,
+                        fill: true,
+                    }, {
+                        label: 'Put Price',
+                        data: putData,
+                        borderColor: '#EF4444', // red-500
+                        backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                        tension: 0.1,
+                        fill: true,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        title: { display: true, text: 'Option Price vs. Stock Price', color: '#CBD5E1' },
+                        legend: { labels: { color: '#CBD5E1' } }
+                    },
+                    scales: {
+                        x: { title: { display: true, text: 'Stock Price ($)', color: '#9CA3AF' }, ticks: { color: '#9CA3AF' } },
+                        y: { title: { display: true, text: 'Option Price ($)', color: '#9CA3AF' }, ticks: { color: '#9CA3AF' } }
+                    }
+                }
+            });
+        }
+        
+        function updateHistoricalChart(symbol) {
+            const historicalData = generateHistoricalData(symbol, 60); // Last 60 days
+            const ctx = document.getElementById('historicalChart').getContext('2d');
+            
+            if (historicalChart) {
+                historicalChart.destroy();
+            }
+            
+            historicalChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: historicalData.labels,
+                    datasets: [{
+                        label: `${symbol} Price`,
+                        data: historicalData.data,
+                        borderColor: '#3B82F6', // blue-500
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        tension: 0.1,
+                        fill: true
+                    }]
+                },
+                 options: {
+                    responsive: true,
+                    plugins: {
+                        title: { display: true, text: '60-Day Simulated Price History', color: '#CBD5E1' },
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: { ticks: { color: '#9CA3AF', maxRotation: 45, minRotation: 45 } },
+                        y: { title: { display: true, text: 'Stock Price ($)', color: '#9CA3AF' }, ticks: { color: '#9CA3AF' } }
+                    }
+                }
+            });
+        }
+
+
+        // --- EVENT LISTENERS ---
+        document.getElementById('calculateBtn').addEventListener('click', updateUI);
+        document.getElementById('stockSymbol').addEventListener('change', updateUI);
+
+        // Initial calculation on load
+        window.onload = updateUI;
+
+    </script>
+</body>
+</html>
