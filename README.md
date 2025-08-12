@@ -21,7 +21,7 @@ I earned an **IBM Product Management Certification** which strengthened my produ
 
 ---
 
-## 👨‍💻 Career Journey
+## 👨‍💻 Career Journey 💼
 
 ### IBM — Certified Product Manager  
 **Certification** — *Completed August 2025*  
@@ -42,7 +42,7 @@ I earned an **IBM Product Management Certification** which strengthened my produ
 
 ---
 
-## Featured Project
+## 🖇️ Featured Project
 
 ### Options Volatility Analyzer  
 A Python tool to analyze options market sentiment by visualizing volatility smiles and skews.
@@ -56,7 +56,7 @@ A Python tool to analyze options market sentiment by visualizing volatility smil
 
 ---
 
-## Technical Skills
+## 💻 Technical Skills
 
 **Product & Design**: Jira · Trello · Miro · Figma · Wireframing · Prototyping  
 **Data & Analytics**: SQL · Excel · Power BI · Google Analytics  
@@ -64,13 +64,13 @@ A Python tool to analyze options market sentiment by visualizing volatility smil
 
 ---
 
-## Education
+## 🎓 Education
 **The University of Texas at Austin**  
 Double Major — Economics & Mathematics (expected graduation: *May 2028*)
 
 ---
 
-## Availability
+## 🕒 Availability
 Currently seeking Product Management internship opportunities. Open to full-time/part-time product internships and co-ops.
 
 ---
