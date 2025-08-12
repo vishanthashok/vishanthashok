@@ -5,14 +5,14 @@ Economics & Mathematics student at The University of Texas at Austin, leveraging
 
 ---
 
-## 📫 Contact
-- **Email:** vishanthashok@utexas.edu  
-- **Location:** Austin, TX (replace if needed)  
-- **LinkedIn / GitHub:** *(replace with links)*
+## 📫  Contact
+- **📧 Email:** vishanthashok@utexas.edu  
+- **📍 Location:** Austin, TX (replace if needed)  
+- **🤝 LinkedIn / GitHub:** *(replace with links)*
 
 ---
 
-## About
+## 👨‍💼 About
 I'm a highly motivated student at UT Austin pursuing a double major in Economics and Mathematics. I combine quantitative rigor with product intuition, having applied my skills across internships in data analysis, financial modeling, and investment strategy.
 
 I earned an **IBM Product Management Certification** which strengthened my product discovery, roadmap creation, and agile tooling skills (Jira, Miro). I enjoy translating customer pain points into prioritized product solutions.
@@ -21,7 +21,7 @@ I earned an **IBM Product Management Certification** which strengthened my produ
 
 ---
 
-## Career Journey
+## 👨‍💻 Career Journey
 
 ### IBM — Certified Product Manager  
 **Certification** — *Completed August 2025*  
@@ -54,8 +54,6 @@ A Python tool to analyze options market sentiment by visualizing volatility smil
 
 **Tech:** Python · yfinance · Matplotlib · pandas
 
-*(Link to project repo: add GitHub link)*
-
 ---
 
 ## Technical Skills
@@ -68,7 +66,7 @@ A Python tool to analyze options market sentiment by visualizing volatility smil
 
 ## Education
 **The University of Texas at Austin**  
-Double Major — Economics & Mathematics (expected graduation: *add date*)
+Double Major — Economics & Mathematics (expected graduation: *May 2028*)
 
 ---
 
@@ -76,14 +74,3 @@ Double Major — Economics & Mathematics (expected graduation: *add date*)
 Currently seeking Product Management internship opportunities. Open to full-time/part-time product internships and co-ops.
 
 ---
-
-## Download Resume
-[Download PDF — Vishanth Ashok Resume](./Vishanth\ Ashok\ G.pdf) *(include the actual PDF in the repo root)*
-
----
-
-## License & Credits
-This resume content is authored by **Vishanth Ashok**. The repository is licensed under the **MIT License** (see `LICENSE`).
-
-If you adapt design templates from external open-source sources, include attribution in `CREDITS.md` and follow that template’s license.
-
