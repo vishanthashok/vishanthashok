@@ -1,4 +1,4 @@
-Vishanth Ashok
+**Vishanth Ashok**
 Aspiring Product Manager | Data-Driven Strategist | UT Austin Student
 <p align="left">
 <a href="https://www.linkedin.com/in/your-profile-url" target="_blank">
