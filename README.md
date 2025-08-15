@@ -7,8 +7,8 @@ Economics & Mathematics student at The University of Texas at Austin, leveraging
 
 ## 📫  Contact
 - **📧 Email:** vishanthashok@utexas.edu  
-- **📍 Location:** Austin, TX (replace if needed)  
-- **🤝 LinkedIn / GitHub:** *(replace with links)*
+- **📍 Location:** Austin, TX 
+- **🤝 LinkedIn / GitHub:** *[LINKEDIN](https://www.linkedin.com/in/vishanth-ashok/)*
 
 ---
 
