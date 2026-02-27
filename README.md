@@ -8,7 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vishanth-ashok)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@vishanthashok)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishanthashok@gmail.com)
+[![Contact Me](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vishanthashok@utexas.edu)
 
 </div>
 
@@ -17,6 +17,8 @@
 ## 🙋‍♂️ About Me
 
 
+## 🙋‍♂️ About Me
+```python
 vishanth = {
     "location"    : "Austin, TX 🤠",
     "education"   : "Economics @ UT Austin",
@@ -27,6 +29,7 @@ vishanth = {
     "reading"     : ["The House of Morgan 📖", "Project Hail Mary 🧑‍🚀"],
     "fun_fact"    : "I can drink coffee all day, all night long! HMU if you love coffee! ☕️ 🚀"
 }
+```
 
 ---
 
