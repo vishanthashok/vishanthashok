@@ -1,0 +1,48 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap.mainpage {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1, h4, p {
+    margin: 0.5rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #cccccc;
+}
+
+.Typewriter__cursor {
+    color: #00ffcc;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
