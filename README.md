@@ -1,30 +1,44 @@
-# Welcome to My Project! 🎉✨  
+# 🌟 Vishanth Ashok's Portfolio
 
-## 🚀 Overview  
-This project is built to demonstrate the capabilities of GitHub Actions in real-world scenarios. Let's explore, learn, and have fun! 💻🌟  
+## Overview
+👋 Hello! I'm Vishanth Ashok. I'm passionate about finance and data analysis, with a strong foundation in financial modeling and programming.
 
-## 📋 Features  
-- **Easy to Use:** User-friendly interface that makes it simple to interact with. 😃  
-- **Robust:** Built with best practices in mind for maximum efficiency and performance. 🏆  
-- **Responsive:** Access your project on any device! 📱💻  
+## Experience
+### 📈 Independent Investment Bankers Corp
+*Position: Analyst*  
+- Analyzed financial statements and built models to assist in raising capital for clients.
 
-## 🌈 Customization  
-Feel free to customize the project as per your needs! 🎨  
-- Change **themes**: To suit your aesthetic preference.  
-- Add **plugins**: For additional features and functionalities.  
+### 💼 Evermount Partners
+*Position: Associate*  
+- Engaged in due diligence and assisted in structuring investment funds.
 
-## 📚 Documentation  
-Comprehensive documentation is available! Check out the **docs** folder for more. 📖🔍  
+### 💵 PNTHR Funds
+*Position: Senior Analyst*  
+- Led financial modeling efforts and risk analysis for portfolio management.
 
-## 🤝 Contributing  
-We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details. ❤️  
+### 🚀 Fund Launch Partners
+*Position: Consultant*  
+- Assisted startups in structuring their financial strategies and fundraising processes.
 
-## 🎉 Let's Connect!  
-- [Twitter](https://twitter.com/yourprofile)  
-- [LinkedIn](https://www.linkedin.com/in/yourprofile)  
+## Leadership
+### 👨‍🎓 Weiser Center  
+*Role: Team Lead*  
+- Spearheaded initiatives to enhance students' financial literacy.
 
-Happy Coding! 🥳  
+### ⚡ Kay Bailey Hutchison Energy Center  
+*Role: Program Director*  
+- Oversaw projects focusing on energy sector research.
+
+## Skills
+- 💡 Financial Modeling  
+- 🐍 Python Programming  
+- 📊 Data Analysis  
+
+## Connect
+✉️ [Email](mailto:your-email@example.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/vishanthashok)  
+🌐 [GitHub](https://github.com/vishanthashok)  
 
 ---  
-
-*This README was last updated on 2026-02-27.*
+This README showcases my professional journey, and I look forward to connecting with you!  
+✨ Let's build something great together!
