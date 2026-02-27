@@ -16,18 +16,18 @@
 
 ## 🙋‍♂️ About Me
 
-```python
+
 vishanth = {
     "location"    : "Austin, TX 🤠",
-    "education"   : "B.S. Economics @ UT Austin (Class of 2028)",
+    "education"   : "Economics @ UT Austin",
     "currently"   : "Investment Banking Analyst Intern @ IIBC",
     "writing"     : "substack.com/@vishanthashok ✍️",
     "passions"    : ["Finance & Markets", "Hiking Trails", "Writing Essays", "Pickleball"],
-    "fuel"        : ["☕ Coffee", "🧋 Boba Tea", "🍗 Nashville Hot Chicken"],
-    "reading"     : "The House of Morgan 📖",
-    "fun_fact"    : "I've pitched 5 investment ideas to actual partners & investors 🚀"
+    "fuel"        : ["☕ Coffee", "🧋 Boba Tea"]
+    "reading"     : ["The House of Morgan 📖", "Project HailMary🧑‍🚀"]
+    "fun_fact"    : "I can drink coffee all day, all night long! HMU if you love cofee! ☕️ 🚀"
 }
-```
+
 
 ---
 
