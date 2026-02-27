@@ -15,9 +15,6 @@
 ---
 
 ## 🙋‍♂️ About Me
-
-
-## 🙋‍♂️ About Me
 ```python
 vishanth = {
     "location"    : "Austin, TX 🤠",
