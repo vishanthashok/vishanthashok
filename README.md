@@ -23,11 +23,10 @@ vishanth = {
     "currently"   : "Investment Banking Analyst Intern @ IIBC",
     "writing"     : "substack.com/@vishanthashok ✍️",
     "passions"    : ["Finance & Markets", "Hiking Trails", "Writing Essays", "Pickleball"],
-    "fuel"        : ["☕ Coffee", "🧋 Boba Tea"]
-    "reading"     : ["The House of Morgan 📖", "Project HailMary🧑‍🚀"]
-    "fun_fact"    : "I can drink coffee all day, all night long! HMU if you love cofee! ☕️ 🚀"
+    "fuel"        : ["☕ Coffee", "🧋 Boba Tea"],
+    "reading"     : ["The House of Morgan 📖", "Project Hail Mary 🧑‍🚀"],
+    "fun_fact"    : "I can drink coffee all day, all night long! HMU if you love coffee! ☕️ 🚀"
 }
-
 
 ---
 
