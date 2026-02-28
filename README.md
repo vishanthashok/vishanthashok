@@ -36,7 +36,7 @@ vishanth = {
 
 | 🥾 Hiking | ✍️ Writing | 🏓 Pickleball | 🧋 Boba Runs |
 |:---:|:---:|:---:|:---:|
-| Trail therapy is real | Essays & market takes | Smashing forehands | It's basically water |
+| Like to travel with nature | Writing about Finance | Weekends & Summer | Love unlimited Boba |
 
 </div>
 
