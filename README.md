@@ -50,27 +50,22 @@
 
 ### `$ whoami`
 
-```yaml
-Name:         Vishanth Ashok
-Role:         IB Analyst Intern @ IIBC
-School:       Economics, UT Austin 🤘
-Based:        Austin, TX
-Writing:      substack.com/@vishanthashok
+| | |
+|:---|:---|
+| 👤 **Name** | Vishanth Ashok |
+| 💼 **Role** | IB Analyst Intern @ IIBC |
+| 🎓 **School** | Economics, UT Austin 🤘 |
+| 📍 **Based** | Austin, TX |
+| ✍️ **Writing** | [substack.com/@vishanthashok](https://substack.com/@vishanthashok) |
 
-Passions:
-  - 💹  Finance & Capital Markets
-  - 🏔️  Hiking (the longer, the better)
-  - ✍️  Writing about markets & ideas
-  - 🏓  Pickleball on weekends
+**Passions:** &nbsp; 💹 Finance & Markets &nbsp;·&nbsp; 🏔️ Hiking &nbsp;·&nbsp; ✍️ Writing &nbsp;·&nbsp; 🏓 Pickleball
 
-Currently:
-  Reading  →  "The House of Morgan" 📖
-  Building →  Deal flow + financial models
-  Thinking →  AI infra demand & data centers
+**Currently:**
+- 📖 Reading → *The House of Morgan*
+- 🏗️ Building → Deal flow + financial models
+- 🧠 Thinking → AI infra demand & data centers
 
-Fun Fact: "Coffee is not a beverage.
-           It's a lifestyle." ☕
-```
+> ☕ *"Coffee is not a beverage. It's a lifestyle."*
 
 <br clear="right"/>
 
@@ -100,41 +95,24 @@ Fun Fact: "Coffee is not a beverage.
 
 <div align="center">
 
-```
-                     CAREER TIMELINE  ──────────────────────────────────────────
-```
+| | Role | Company | Period |
+|:---:|:---|:---|:---:|
+| 🏦 | **Investment Banking Analyst Intern** | Independent Investment Bankers Corp. (IIBC) | `Dec 2025 → Now` |
+| 🏢 | **Strategy Intern** | Evermount Partners LLC | `Sep → Dec 2025` |
+| 📊 | **Investment Analyst Intern** | PNTHR Funds LP | `Mar → Jun 2025` |
+| 🏗️ | **Private Equity Analyst Intern** | Fund Launch Partners LLC | `Jan → Mar 2025` |
 
 </div>
 
-```
- NOW   ██████████████████████████████████████████████████████████████
-       🏦  Investment Banking Analyst Intern
-           Independent Investment Bankers Corp. (IIBC)          Dec 2025 → Present
-           ├─ M&A advisory, capital markets transactions
-           ├─ Financial modeling, CIM preparation, deal execution
-           └─ Sector: Lower middle-market M&A
+<br/>
 
- ──────────────────────────────────────────────────────────────────────────────
-       🏢  Strategy Intern
-           Evermount Partners LLC                                Sep → Dec 2025
-           ├─ Benchmarked 15+ data center peers across key metrics
-           ├─ Built scenario models for AI-driven demand markets
-           └─ Synthesized macro trends into investment theses
+> 🏦 **IIBC** — M&A advisory, capital markets transactions, financial modeling & CIM preparation. Focus: lower middle-market M&A.
 
- ──────────────────────────────────────────────────────────────────────────────
-       📊  Investment Analyst Intern
-           PNTHR Funds LP                                        Mar → Jun 2025
-           ├─ Built Python scripts to automate data workflows
-           ├─ Drafted 30+ investment memos across sectors
-           └─ Pitched 5 investment ideas directly to partners
+> 🏢 **Evermount Partners** — Benchmarked 15+ data center peers, built scenario models for AI-driven demand markets, synthesized macro trends into investment theses.
 
- ──────────────────────────────────────────────────────────────────────────────
-       🏗️  Private Equity Analyst Intern
-           Fund Launch Partners LLC                              Jan → Mar 2025
-           ├─ Built LBO models for multifamily & media deals
-           ├─ Conducted market research & comp analysis
-           └─ Supported GP in due diligence processes
-```
+> 📊 **PNTHR Funds** — Built Python automation scripts for data workflows, drafted 30+ investment memos, pitched 5 investment ideas directly to partners.
+
+> 🏗️ **Fund Launch Partners** — Built LBO models for multifamily & media deals, conducted market research & comp analysis, supported GP in due diligence.
 
 ---
 
