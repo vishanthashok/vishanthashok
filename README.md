@@ -135,7 +135,7 @@ print(me.fun_fact())
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vishanthashok&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F7A237&icon_color=F7A237&text_color=ffffff&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=vishanthashok&theme=tokyonight&hide_border=true&background=0D1117&ring=F7A237&fire=F7A237&currStreakLabel=F7A237" />
+<img width="49%" src="https://streak-stats.demolab.com?user=vishanthashok&theme=tokyonight&hide_border=true&background=0D1117&ring=F7A237&fire=F7A237&currStreakLabel=F7A237" />
 
 <br/>
 
@@ -147,7 +147,7 @@ print(me.fun_fact())
 
 <!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishanthashok&bg_color=0D1117&color=F7A237&line=302b63&point=F7A237&area=true&hide_border=true" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishanthashok&bg_color=0D1117&color=F7A237&line=F7A237&point=ffffff&area=true&area_color=302b63&hide_border=true" width="95%"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -155,7 +155,7 @@ print(me.fun_fact())
 ## <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="35"> &nbsp; Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vishanthashok&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=vishanthashok&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
