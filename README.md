@@ -1,15 +1,15 @@
-<!-- ╔═══════════════════════════════════════════════════════════════╗ -->
-<!-- ║              VISHANTH ASHOK — GITHUB PROFILE README          ║ -->
-<!-- ╚═══════════════════════════════════════════════════════════════╝ -->
+<!-- ╔══════════════════════════════════════════════════════════════════╗ -->
+<!-- ║             VISHANTH ASHOK — GITHUB PROFILE README              ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020024,30:090979,60:00d4ff,100:f7a237&height=250&section=header&text=Vishanth%20Ashok&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Finance%20%E2%80%A2%20Markets%20%E2%80%A2%20Strategy%20%E2%80%A2%20Mountains&descSize=18&descColor=00d4ff&descAlignY=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:020024,30:090979,60:00d4ff,100:f7a237&height=260&section=header&text=Vishanth%20Ashok&fontSize=68&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Finance%20%E2%80%A2%20Markets%20%E2%80%A2%20Strategy%20%E2%80%A2%20Mountains&descSize=18&descColor=00d4ff&descAlignY=62" width="100%"/>
 
 <br/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1000&color=F7A237&center=true&vCenter=true&width=750&lines=Economics+%40+UT+Austin+%F0%9F%A4%98;Investment+Banking+Analyst+Intern+%F0%9F%93%88;Building+at+the+intersection+of+Finance+%2B+Tech;Hiker+%7C+Writer+%7C+Boba+Connoisseur+%F0%9F%A7%8B;Always+chasing+the+next+big+idea+%F0%9F%92%A1" alt="Typing SVG" />
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2800&pause=1000&color=F7A237&center=true&vCenter=true&width=750&lines=Economics+%40+UT+Austin+%F0%9F%A4%98;IB+Analyst+Intern+%E2%86%92+Full-Time+IB+Track+%F0%9F%93%88;Finance+%2B+Tech+%2B+Mountains+%3D+Me;Hiker+%7C+Writer+%7C+Boba+Connoisseur+%F0%9F%A7%8B;Always+chasing+the+next+big+idea+%F0%9F%92%A1" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -25,17 +25,21 @@
 
 <br/><br/>
 
-<!-- SOCIAL LINKS -->
+<!-- SOCIAL + WEBSITE LINKS -->
+<a href="https://vishanthashok.app">
+  <img src="https://img.shields.io/badge/🌐%20%20vishanthashok.app-20232a?style=for-the-badge&logoColor=white" height="30"/>
+</a>
+&nbsp;
 <a href="https://linkedin.com/in/vishanth-ashok">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
 <a href="https://substack.com/@vishanthashok">
-  <img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white&labelColor=FF6719"/>
+  <img src="https://img.shields.io/badge/Substack-Subscribe-FF6719?style=for-the-badge&logo=substack&logoColor=white"/>
 </a>
 &nbsp;
 <a href="mailto:vishanthashok@utexas.edu">
-  <img src="https://img.shields.io/badge/Email-Say%20Hey-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335"/>
+  <img src="https://img.shields.io/badge/Email-Say%20Hey-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </div>
@@ -46,13 +50,14 @@
 
 <!-- ═══════════════════════ ABOUT ME ═══════════════════════ -->
 
-<img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" width="290" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 ### `$ whoami`
 
 | | |
 |:---|:---|
 | 👤 **Name** | Vishanth Ashok |
+| 🌐 **Website** | [vishanthashok.app](https://vishanthashok.app) |
 | 💼 **Role** | IB Analyst Intern @ IIBC |
 | 🎓 **School** | Economics, UT Austin 🤘 |
 | 📍 **Based** | Austin, TX |
@@ -61,9 +66,9 @@
 **Passions:** &nbsp; 💹 Finance & Markets &nbsp;·&nbsp; 🏔️ Hiking &nbsp;·&nbsp; ✍️ Writing &nbsp;·&nbsp; 🏓 Pickleball
 
 **Currently:**
-- 📖 Reading → *The House of Morgan*
-- 🏗️ Building → Deal flow + financial models
-- 🧠 Thinking → AI infra demand & data centers
+- 📖 Reading → *The House of Morgan* by Ron Chernow
+- 🏗️ Building → Deal flow pipelines + financial models
+- 🧠 Thinking → AI infrastructure demand & data center dynamics
 
 > ☕ *"Coffee is not a beverage. It's a lifestyle."*
 
@@ -80,12 +85,114 @@
 |  | Now | Next |
 |:---:|:---|:---|
 | 📈 | **Investment Banking** @ IIBC — M&A, capital markets, deal execution | Breaking into full-time IB |
-| 🧠 | Deep-diving AI infrastructure & data center demand dynamics | Writing a Substack piece on it |
-| 🥾 | Planning next trail — somewhere in Colorado | Hitting Enchantments (WA) in summer |
-| 📖 | *The House of Morgan* by Ron Chernow | *Barbarians at the Gate* is next |
-| ☕ | Maintaining a 4+ cup/day coffee average | Raising the floor, never the ceiling |
+| 🧠 | Deep-diving AI infra & data center demand dynamics | Publishing a Substack piece on it |
+| 🥾 | Planning next trail — somewhere in Colorado | Hitting the Enchantments (WA) this summer |
+| 📖 | *The House of Morgan* — Ron Chernow | *Barbarians at the Gate* is queued up |
+| ☕ | Maintaining a 4+ cup/day average | Raising the floor, never the ceiling |
 
 </div>
+
+---
+
+<!-- ═══════════════════════ FEATURED PROJECTS ═══════════════════════ -->
+
+## 🚀 &nbsp; Featured Projects
+
+> Work at the intersection of finance, data, and automation.
+
+<div align="center">
+
+<!--
+  ┌─────────────────────────────────────────────────────────────────┐
+  │  GitHub repo cards — replace "repo-name" with your actual repos  │
+  └─────────────────────────────────────────────────────────────────┘
+-->
+
+<a href="https://github.com/vishanthashok/REPO_NAME_1">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=vishanthashok&repo=REPO_NAME_1&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=F7A237&text_color=ffffff&description_lines_count=2"/>
+</a>
+<a href="https://github.com/vishanthashok/REPO_NAME_2">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=vishanthashok&repo=REPO_NAME_2&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=F7A237&text_color=ffffff&description_lines_count=2"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/vishanthashok/REPO_NAME_3">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=vishanthashok&repo=REPO_NAME_3&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=F7A237&text_color=ffffff&description_lines_count=2"/>
+</a>
+<a href="https://github.com/vishanthashok/REPO_NAME_4">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=vishanthashok&repo=REPO_NAME_4&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d4ff&icon_color=F7A237&text_color=ffffff&description_lines_count=2"/>
+</a>
+
+</div>
+
+<br/>
+
+### 🔬 &nbsp; Project Highlights
+
+<details>
+<summary><b>📊 Financial Modeling Toolkit</b> &nbsp;—&nbsp; <code>Python · Excel · Bloomberg API</code></summary>
+<br/>
+
+> **What it does:** Automates DCF, LBO, and comparable company analysis workflows. Built during my PNTHR Funds internship to replace manual data pulls with Python scripts — cut prep time per memo from ~3 hrs to under 30 min.
+
+**Key features:**
+- Bloomberg/CapIQ data ingestion via API
+- Automated sensitivity tables & scenario outputs
+- Excel output with clean formatting via `openpyxl`
+
+[→ View Repo](https://github.com/vishanthashok/REPO_NAME_1)
+
+</details>
+
+<details>
+<summary><b>🏢 Data Center Market Intelligence Dashboard</b> &nbsp;—&nbsp; <code>Python · Power BI · SQL</code></summary>
+<br/>
+
+> **What it does:** Benchmarking tool for AI-driven data center demand — built during Evermount Partners. Aggregates 15+ public comps, models hyperscaler capex trends, and outputs scenario-weighted demand forecasts.
+
+**Key features:**
+- Automated peer benchmarking from public filings
+- AI infrastructure demand scenarios (bull/base/bear)
+- Power BI dashboard for exec-level storytelling
+
+[→ View Repo](https://github.com/vishanthashok/REPO_NAME_2)
+
+</details>
+
+<details>
+<summary><b>🏗️ LBO Model — Multifamily & Media</b> &nbsp;—&nbsp; <code>Excel · VBA</code></summary>
+<br/>
+
+> **What it does:** Full LBO model templates for multifamily real estate and media assets, developed at Fund Launch Partners. Includes IRR/MOIC sensitivity, debt waterfall, and GP/LP return splits.
+
+**Key features:**
+- Integrated debt schedule + cash flow waterfall
+- Sponsor return analysis with exit multiple scenarios
+- Designed for lower middle-market deal sizes
+
+[→ View Repo](https://github.com/vishanthashok/REPO_NAME_3)
+
+</details>
+
+<details>
+<summary><b>📝 Investment Memo Generator</b> &nbsp;—&nbsp; <code>Python · NLP · Substack API</code></summary>
+<br/>
+
+> **What it does:** Streamlines investment memo drafting — scrapes public filings, news, and CapIQ exports, then structures them into a templated memo format. Pitched 5 ideas to partners at PNTHR using this workflow.
+
+**Key features:**
+- Automated EDGAR/news ingestion
+- NLP-assisted summarization of 10-K sections
+- Output to clean PDF/Word memo template
+
+[→ View Repo](https://github.com/vishanthashok/REPO_NAME_4)
+
+</details>
+
+<br/>
+
+> 💡 **Note:** Replace `REPO_NAME_1` → `REPO_NAME_4` above with your actual repo slugs and update the detail descriptions to match your real projects.
 
 ---
 
@@ -166,7 +273,7 @@
 
 <br/>
 
-<!-- CONTRIBUTION SNAKE — runs via GitHub Actions (see .github/workflows/snake.yml) -->
+<!-- CONTRIBUTION SNAKE -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vishanthashok/vishanthashok/output/github-contribution-grid-snake-dark.svg"/>
@@ -205,8 +312,8 @@
   ║                                                                  ║
   ║   "Markets, ideas, and everything in between."                   ║
   ║                                                                  ║
-  ║   I publish essays on finance, capital markets, and the          ║
-  ║   random things that grab my attention on trail.                 ║
+  ║   Essays on finance, capital markets, AI infrastructure,         ║
+  ║   and whatever grabs me on the trail.                            ║
   ║                                                                  ║
   ║   Come read. Subscribe. Disagree with me.                        ║
   ║                                                                  ║
@@ -275,6 +382,10 @@
 
 <br/>
 
+<a href="https://vishanthashok.app">
+  <img src="https://img.shields.io/badge/🌐%20%20vishanthashok.app-20232a?style=for-the-badge" height="30"/>
+</a>
+&nbsp;
 <a href="https://linkedin.com/in/vishanth-ashok">
   <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
@@ -291,6 +402,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020024,50:090979,100:00d4ff&height=120&section=footer&fontColor=ffffff" width="100%"/>
 
-*📍 Austin, TX &nbsp;·&nbsp; Hook 'em! 🤘 &nbsp;·&nbsp; Always building something.*
+*📍 Austin, TX &nbsp;·&nbsp; [vishanthashok.app](https://vishanthashok.app) &nbsp;·&nbsp; Hook 'em! 🤘 &nbsp;·&nbsp; Always building something.*
 
 </div>
