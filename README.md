@@ -43,7 +43,7 @@ interests:  [tech, finance, startups]
 
 <br/>
 
-## what i've worked on
+## **what i've worked on**
 
 i've had the chance to work at some interesting places. here's what actually stuck with me from each one.
 
