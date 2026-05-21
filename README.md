@@ -92,7 +92,7 @@
 
 <img align="right" width="270" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif"/>
 
-## `$ whoami`
+##WHO AM I
 
 **Vishanth Ashok** · Sophomore · UT Austin · Economics (BS, '28)
 Stats & Data Science minor · Hook 'em 🤘
