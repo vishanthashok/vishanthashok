@@ -36,11 +36,7 @@ when i'm not doing finance stuff, i'm either on a trail somewhere, writing on su
 name:       Vishanth Ashok
 school:     UT Austin — Economics '28
 based:      Austin, TX (but always plotting the next trip)
-interests:  [markets, AI infrastructure, M&A, writing, mountains]
-currently:  building deal flow pipelines + thinking about data center demand
-reading:    The House of Morgan — Ron Chernow
-next book:  Barbarians at the Gate (it's been on the list too long)
-coffee:     4+ cups/day. this is not a flex, it is a medical condition.
+interests:  [tech, finance, startups]
 ```
 
 ---
